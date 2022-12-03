@@ -42,7 +42,7 @@ func readInput() ([]Elf, error) {
 		i, err := strconv.Atoi(line)
 
 		if err != nil {
-			return err
+			return elves, err
 		}
 
 		elf.Calories = append(elf.Calories, i)
