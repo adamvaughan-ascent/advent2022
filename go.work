@@ -5,3 +5,5 @@ use ./day1
 use ./day2
 
 use ./day3
+
+use ./day4
